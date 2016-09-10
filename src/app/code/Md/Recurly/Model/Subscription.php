@@ -18,9 +18,11 @@ class Subscription extends \Magento\Payment\Model\Method\AbstractMethod
      *
      * @var string
      */
-    protected $_code = 'subscription';
+    //protected $_code = 'subscription';
 
+	const CODE = 'subscription';
 
+    protected $_code = self::CODE;
 
   
 

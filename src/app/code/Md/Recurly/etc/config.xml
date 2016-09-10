@@ -15,7 +15,6 @@
 				<instructions>Instruction.</instructions>
 				<payment_action>true</payment_action>
 				<model>Md\Recurly\Model\Subscription</model>
-				<group>offline</group>
 			</subscription>
         </payment>
     </default>
